@@ -1,1 +1,1 @@
-Input data used in the computational experiments.
+The main input data provided with this repository are stored in the `data/` directory.
