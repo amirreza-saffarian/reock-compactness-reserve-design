@@ -19,7 +19,7 @@ The study develops optimization approaches for conservation reserve design using
   Implementation of the Dinkelbach-based solution approach.
 
 - `load_forest_data.py`  
-  Functions for loading and processing the landscape instances.
+  Provides data-loading and preprocessing utilities for the landscape instances used in the computational experiments, including patch areas, costs, adjacency relationships, spatial coordinates, and other instance-specific data.
 
 - `data/`  
   Input data for the computational experiments.
