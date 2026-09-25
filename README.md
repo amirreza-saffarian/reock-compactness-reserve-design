@@ -24,11 +24,10 @@ The study develops optimization approaches for conservation reserve design using
 - `load_forest_data1.py`  
   Additional data-loading utilities used by the optimization implementations.
 
-- `data/`  
-  Contains the input data required for the computational experiments.
+- `data/`
+  Contains the main input data used in the computational experiments.
 
-- `output/`  
-  Contains additional preprocessed data required by some instances, including the El Dorado instance.
+
 
 ## Requirements
 
@@ -57,7 +56,6 @@ The data-loading scripts read landscape information such as patch areas, costs, 
 
 The file `point_datasets.xlsx` should also be placed in the `data/` directory when using `load_forest_data1.py`, since this loader reads spatial-coordinate data for some landscape instances from this file.
 
-Additional preprocessed files required by specific instances should be stored in the `output/` directory.
 
 ## Running the Code
 
